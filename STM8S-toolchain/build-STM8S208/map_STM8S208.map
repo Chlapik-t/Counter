@@ -1,0 +1,795 @@
+Archive member included to satisfy reference by file (symbol)
+
+../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+                              build-STM8S208/main.o (_CLK_HSIPrescalerConfig)
+../SPL/spl-STM8S208.o.lib(stm8s_gpio.o)
+                              build-STM8S208/main.o (_GPIO_Init)
+../SPL/spl-STM8S208.o.lib(stm8s_itc.o)
+                              build-STM8S208/milis.o (_ITC_SetSoftwarePriority)
+../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+                              build-STM8S208/main.o (_TIM2_TimeBaseInit)
+../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+                              build-STM8S208/milis.o (_TIM4_TimeBaseInit)
+../sdcc.o.lib(_mullong.o)     build-STM8S208/delay.o (__mullong)
+../sdcc.o.lib(_divulong.o)    build-STM8S208/delay.o (__divulong)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 build-STM8S208/delay.o
+ .data          0x0000000000000000        0x0 build-STM8S208/delay.o
+ .bss           0x0000000000000000        0x0 build-STM8S208/delay.o
+ .text.__delay_cycl
+                0x0000000000000000        0xd build-STM8S208/delay.o
+ .text.__delay_us
+                0x0000000000000000       0x3c build-STM8S208/delay.o
+ .text._delay_us
+                0x0000000000000000       0x3f build-STM8S208/delay.o
+ .text._delay_ms
+                0x0000000000000000       0x5b build-STM8S208/delay.o
+ .text.rodata   0x0000000000000000        0x0 build-STM8S208/delay.o
+ CABS(ABS)      0x0000000000000000        0x0 build-STM8S208/delay.o
+ .debug_line    0x0000000000000000      0x27c build-STM8S208/delay.o
+ .debug_loc     0x0000000000000000      0x1b8 build-STM8S208/delay.o
+ .debug_abbrev  0x0000000000000000       0x80 build-STM8S208/delay.o
+ .debug_info    0x0000000000000000      0x41b build-STM8S208/delay.o
+ .debug_pubnames
+                0x0000000000000000       0x2c build-STM8S208/delay.o
+ .debug_frame   0x0000000000000000      0x176 build-STM8S208/delay.o
+ .data          0x0000000000000000        0x0 build-STM8S208/main.o
+ .bss           0x0000000000000000        0x0 build-STM8S208/main.o
+ .text.rodata   0x0000000000000000        0x0 build-STM8S208/main.o
+ .text          0x0000000000000000        0x0 build-STM8S208/milis.o
+ .bss           0x0000000000000000        0x0 build-STM8S208/milis.o
+ .text._milis   0x0000000000000000       0x25 build-STM8S208/milis.o
+ .text.rodata   0x0000000000000000        0x0 build-STM8S208/milis.o
+ .text          0x0000000000000000        0x0 build-STM8S208/stm8s_it.o
+ .data          0x0000000000000000        0x0 build-STM8S208/stm8s_it.o
+ .bss           0x0000000000000000        0x0 build-STM8S208/stm8s_it.o
+ .text.rodata   0x0000000000000000        0x0 build-STM8S208/stm8s_it.o
+ .text          0x0000000000000000        0x0 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .data          0x0000000000000000        0x0 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .bss           0x0000000000000000        0x0 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .text._CLK_DeInit
+                0x0000000000000000       0x3a ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .text._CLK_FastHaltWakeUpCmd
+                0x0000000000000000       0x18 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .text._CLK_HSECmd
+                0x0000000000000000       0x18 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .text._CLK_HSICmd
+                0x0000000000000000       0x18 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .text._CLK_LSICmd
+                0x0000000000000000       0x18 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .text._CLK_CCOCmd
+                0x0000000000000000       0x18 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .text._CLK_ClockSwitchCmd
+                0x0000000000000000       0x18 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .text._CLK_SlowActiveHaltWakeUpCmd
+                0x0000000000000000       0x18 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .text._CLK_PeripheralClockConfig
+                0x0000000000000000       0x54 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .text._CLK_ClockSwitchConfig
+                0x0000000000000000      0x108 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .text._CLK_CCOConfig
+                0x0000000000000000       0x19 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .text._CLK_ITConfig
+                0x0000000000000000       0x68 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .text._CLK_SYSCLKConfig
+                0x0000000000000000       0x36 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .text._CLK_SWIMConfig
+                0x0000000000000000       0x18 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .text._CLK_ClockSecuritySystemEnable
+                0x0000000000000000        0x9 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .text._CLK_GetSYSCLKSource
+                0x0000000000000000        0x4 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .text._CLK_GetClockFreq
+                0x0000000000000000       0x60 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .text._CLK_AdjustHSICalibrationValue
+                0x0000000000000000        0xb ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .text._CLK_SYSCLKEmergencyClear
+                0x0000000000000000        0x9 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .text._CLK_GetFlagStatus
+                0x0000000000000000       0x64 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .text._CLK_GetITStatus
+                0x0000000000000000       0x3a ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .text._CLK_ClearITPendingBit
+                0x0000000000000000       0x20 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .text.rodata   0x0000000000000000        0xc ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .text          0x0000000000000000        0x0 ../SPL/spl-STM8S208.o.lib(stm8s_gpio.o)
+ .data          0x0000000000000000        0x0 ../SPL/spl-STM8S208.o.lib(stm8s_gpio.o)
+ .bss           0x0000000000000000        0x0 ../SPL/spl-STM8S208.o.lib(stm8s_gpio.o)
+ .text._GPIO_DeInit
+                0x0000000000000000       0x13 ../SPL/spl-STM8S208.o.lib(stm8s_gpio.o)
+ .text._GPIO_Write
+                0x0000000000000000        0x6 ../SPL/spl-STM8S208.o.lib(stm8s_gpio.o)
+ .text._GPIO_WriteHigh
+                0x0000000000000000        0x7 ../SPL/spl-STM8S208.o.lib(stm8s_gpio.o)
+ .text._GPIO_WriteLow
+                0x0000000000000000        0xe ../SPL/spl-STM8S208.o.lib(stm8s_gpio.o)
+ .text._GPIO_WriteReverse
+                0x0000000000000000        0x7 ../SPL/spl-STM8S208.o.lib(stm8s_gpio.o)
+ .text._GPIO_ReadOutputData
+                0x0000000000000000        0x4 ../SPL/spl-STM8S208.o.lib(stm8s_gpio.o)
+ .text._GPIO_ReadInputData
+                0x0000000000000000        0x5 ../SPL/spl-STM8S208.o.lib(stm8s_gpio.o)
+ .text._GPIO_ReadInputPin
+                0x0000000000000000        0x7 ../SPL/spl-STM8S208.o.lib(stm8s_gpio.o)
+ .text._GPIO_ExternalPullUpConfig
+                0x0000000000000000       0x20 ../SPL/spl-STM8S208.o.lib(stm8s_gpio.o)
+ .text.rodata   0x0000000000000000        0x0 ../SPL/spl-STM8S208.o.lib(stm8s_gpio.o)
+ .text          0x0000000000000000        0x0 ../SPL/spl-STM8S208.o.lib(stm8s_itc.o)
+ .data          0x0000000000000000        0x0 ../SPL/spl-STM8S208.o.lib(stm8s_itc.o)
+ .bss           0x0000000000000000        0x0 ../SPL/spl-STM8S208.o.lib(stm8s_itc.o)
+ .text._ITC_GetCPUCC
+                0x0000000000000000        0x3 ../SPL/spl-STM8S208.o.lib(stm8s_itc.o)
+ .text._ITC_DeInit
+                0x0000000000000000       0x21 ../SPL/spl-STM8S208.o.lib(stm8s_itc.o)
+ .text._ITC_GetSoftIntStatus
+                0x0000000000000000        0x6 ../SPL/spl-STM8S208.o.lib(stm8s_itc.o)
+ .text._ITC_GetSoftwarePriority
+                0x0000000000000000       0xa9 ../SPL/spl-STM8S208.o.lib(stm8s_itc.o)
+ .text.rodata   0x0000000000000000        0x0 ../SPL/spl-STM8S208.o.lib(stm8s_itc.o)
+ .text          0x0000000000000000        0x0 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .data          0x0000000000000000        0x0 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .bss           0x0000000000000000        0x0 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_DeInit
+                0x0000000000000000       0x59 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_OC1Init
+                0x0000000000000000       0x37 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_OC2Init
+                0x0000000000000000       0x37 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_OC3Init
+                0x0000000000000000       0x37 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_ICInit
+                0x0000000000000000       0x58 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_PWMIConfig
+                0x0000000000000000       0x89 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_UpdateDisableConfig
+                0x0000000000000000       0x18 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_UpdateRequestConfig
+                0x0000000000000000       0x18 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_SelectOnePulseMode
+                0x0000000000000000       0x18 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_PrescalerConfig
+                0x0000000000000000        0xd ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_ForcedOC1Config
+                0x0000000000000000        0xb ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_ForcedOC2Config
+                0x0000000000000000        0xb ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_ForcedOC3Config
+                0x0000000000000000        0xb ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_ARRPreloadConfig
+                0x0000000000000000       0x18 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_OC1PreloadConfig
+                0x0000000000000000       0x18 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_OC2PreloadConfig
+                0x0000000000000000       0x18 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_OC3PreloadConfig
+                0x0000000000000000       0x18 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_GenerateEvent
+                0x0000000000000000        0x7 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_OC1PolarityConfig
+                0x0000000000000000       0x18 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_OC2PolarityConfig
+                0x0000000000000000       0x18 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_OC3PolarityConfig
+                0x0000000000000000       0x18 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_CCxCmd
+                0x0000000000000000       0x5e ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_SelectOCxM
+                0x0000000000000000       0x4f ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_SetCounter
+                0x0000000000000000       0x13 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_SetAutoreload
+                0x0000000000000000       0x13 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_SetCompare1
+                0x0000000000000000       0x13 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_SetCompare2
+                0x0000000000000000       0x13 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_SetCompare3
+                0x0000000000000000       0x13 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_SetIC1Prescaler
+                0x0000000000000000        0xb ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_SetIC2Prescaler
+                0x0000000000000000        0xb ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_SetIC3Prescaler
+                0x0000000000000000        0xb ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_GetCapture1
+                0x0000000000000000       0x1a ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_GetCapture2
+                0x0000000000000000       0x1a ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_GetCapture3
+                0x0000000000000000       0x1a ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_GetCounter
+                0x0000000000000000       0x1d ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_GetPrescaler
+                0x0000000000000000        0x4 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_GetFlagStatus
+                0x0000000000000000       0x29 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_ClearFlag
+                0x0000000000000000        0xb ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_GetITStatus
+                0x0000000000000000       0x23 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TIM2_ClearITPendingBit
+                0x0000000000000000        0x7 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TI1_Config
+                0x0000000000000000       0x3d ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TI2_Config
+                0x0000000000000000       0x3d ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text._TI3_Config
+                0x0000000000000000       0x3d ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text.rodata   0x0000000000000000        0x0 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .text          0x0000000000000000        0x0 ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+ .data          0x0000000000000000        0x0 ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+ .bss           0x0000000000000000        0x0 ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+ .text._TIM4_DeInit
+                0x0000000000000000       0x19 ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+ .text._TIM4_UpdateDisableConfig
+                0x0000000000000000       0x18 ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+ .text._TIM4_UpdateRequestConfig
+                0x0000000000000000       0x18 ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+ .text._TIM4_SelectOnePulseMode
+                0x0000000000000000       0x18 ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+ .text._TIM4_PrescalerConfig
+                0x0000000000000000        0xd ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+ .text._TIM4_ARRPreloadConfig
+                0x0000000000000000       0x18 ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+ .text._TIM4_GenerateEvent
+                0x0000000000000000        0x7 ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+ .text._TIM4_SetCounter
+                0x0000000000000000        0x7 ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+ .text._TIM4_SetAutoreload
+                0x0000000000000000        0x7 ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+ .text._TIM4_GetCounter
+                0x0000000000000000        0x4 ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+ .text._TIM4_GetPrescaler
+                0x0000000000000000        0x4 ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+ .text._TIM4_GetFlagStatus
+                0x0000000000000000       0x12 ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+ .text._TIM4_GetITStatus
+                0x0000000000000000       0x23 ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+ .text._TIM4_ClearITPendingBit
+                0x0000000000000000        0x7 ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+ .text.rodata   0x0000000000000000        0x0 ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+ .text          0x0000000000000000        0x0 ../sdcc.o.lib(_mullong.o)
+ .data          0x0000000000000000        0x0 ../sdcc.o.lib(_mullong.o)
+ .bss           0x0000000000000000        0x0 ../sdcc.o.lib(_mullong.o)
+ .text.__mullong
+                0x0000000000000000      0x120 ../sdcc.o.lib(_mullong.o)
+ .text.rodata   0x0000000000000000        0x0 ../sdcc.o.lib(_mullong.o)
+ CABS(ABS)      0x0000000000000000        0x0 ../sdcc.o.lib(_mullong.o)
+ .debug_line    0x0000000000000000      0x187 ../sdcc.o.lib(_mullong.o)
+ .debug_loc     0x0000000000000000       0xbc ../sdcc.o.lib(_mullong.o)
+ .debug_abbrev  0x0000000000000000       0x6a ../sdcc.o.lib(_mullong.o)
+ .debug_info    0x0000000000000000      0x1b0 ../sdcc.o.lib(_mullong.o)
+ .debug_pubnames
+                0x0000000000000000       0x1f ../sdcc.o.lib(_mullong.o)
+ .debug_frame   0x0000000000000000       0x8b ../sdcc.o.lib(_mullong.o)
+ .text          0x0000000000000000        0x0 ../sdcc.o.lib(_divulong.o)
+ .data          0x0000000000000000        0x0 ../sdcc.o.lib(_divulong.o)
+ .bss           0x0000000000000000        0x0 ../sdcc.o.lib(_divulong.o)
+ .text.__divulong
+                0x0000000000000000       0x86 ../sdcc.o.lib(_divulong.o)
+ .text.rodata   0x0000000000000000        0x0 ../sdcc.o.lib(_divulong.o)
+ CABS(ABS)      0x0000000000000000        0x0 ../sdcc.o.lib(_divulong.o)
+ .debug_line    0x0000000000000000      0x182 ../sdcc.o.lib(_divulong.o)
+ .debug_loc     0x0000000000000000       0xa4 ../sdcc.o.lib(_divulong.o)
+ .debug_abbrev  0x0000000000000000       0x54 ../sdcc.o.lib(_divulong.o)
+ .debug_info    0x0000000000000000      0x10a ../sdcc.o.lib(_divulong.o)
+ .debug_pubnames
+                0x0000000000000000       0x20 ../sdcc.o.lib(_divulong.o)
+ .debug_frame   0x0000000000000000       0x7d ../sdcc.o.lib(_divulong.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+interrupts       0x0000000000008000 0x0000000000000080 xr
+RAM              0x0000000000000002 0x00000000000013fe rw !x
+STACK            0x00000000000013ff 0x0000000000000400 rw
+eeprom           0x0000000000004000 0x0000000000000800 rw !x
+fuse             0x0000000000004800 0x0000000000000080 xr
+lock             0x0000000000005100 0x0000000000000400 rw !x
+ROM              0x0000000000008080 0x000000000001ff80 xr
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD build-STM8S208/delay.o
+LOAD build-STM8S208/main.o
+LOAD build-STM8S208/milis.o
+LOAD build-STM8S208/stm8s_it.o
+LOAD ../SPL/spl-STM8S208.o.lib
+LOAD ../sdcc.o.lib
+                0x0000000000000080                __INTERRUPTS_REGION_LENGTH__ = DEFINED (__INTERRUPTS_REGION_LENGTH__)?__INTERRUPTS_REGION_LENGTH__:0x80
+                0x0000000000020000                __FLASH_REGION_LENGTH__ = DEFINED (__FLASH_REGION_LENGTH__)?__FLASH_REGION_LENGTH__:0x20000
+                0x0000000000000400                __STACK_REGION_LENGTH__ = DEFINED (__STACK_REGION_LENGTH__)?__STACK_REGION_LENGTH__:0x400
+                0x0000000000001800                __SRAM_REGION_LENGTH__ = DEFINED (__SRAM_REGION_LENGTH__)?__SRAM_REGION_LENGTH__:0x1800
+                0x0000000000000800                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x800
+                0x0000000000000080                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x80
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.vectors        0x0000000000008000       0x6c
+ *(.vectors)
+ .vectors       0x0000000000008000       0x6c build-STM8S208/main.o
+ *(.vectors)
+
+.text           0x0000000000008080      0x2f2
+ *(.progmem.gcc*)
+                0x0000000000008080                . = ALIGN (0x2)
+                0x0000000000008080                __trampolines_start = .
+ *(.trampolines)
+ *(.trampolines*)
+                0x0000000000008080                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+                0x0000000000008080                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000000000008080                __ctors_start = .
+ *(.ctors)
+                0x0000000000008080                __ctors_end = .
+                0x0000000000008080                __dtors_start = .
+ *(.dtors)
+                0x0000000000008080                __dtors_end = .
+ SORT_BY_NAME(*)(.ctors)
+ SORT_BY_NAME(*)(.dtors)
+ *(.init0)
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ *(.init9)
+ *(.text)
+ .text          0x0000000000008080       0x2b build-STM8S208/main.o
+                0x0000000000008080                _start
+                0x00000000000080ac                . = ALIGN (0x2)
+ *fill*         0x00000000000080ab        0x1 
+ *(.text.*)
+ .text._init    0x00000000000080ac       0x3e build-STM8S208/main.o
+                0x00000000000080ac                _init
+ .text._main    0x00000000000080ea        0x7 build-STM8S208/main.o
+                0x00000000000080ea                _main
+ .text._init_milis
+                0x00000000000080f1       0x26 build-STM8S208/milis.o
+                0x00000000000080f1                _init_milis
+ .text._TRAP_IRQHandler
+                0x0000000000008117        0x1 build-STM8S208/stm8s_it.o
+                0x0000000000008117                _TRAP_IRQHandler
+ .text._TLI_IRQHandler
+                0x0000000000008118        0x1 build-STM8S208/stm8s_it.o
+                0x0000000000008118                _TLI_IRQHandler
+ .text._AWU_IRQHandler
+                0x0000000000008119        0x1 build-STM8S208/stm8s_it.o
+                0x0000000000008119                _AWU_IRQHandler
+ .text._CLK_IRQHandler
+                0x000000000000811a        0x1 build-STM8S208/stm8s_it.o
+                0x000000000000811a                _CLK_IRQHandler
+ .text._EXTI_PORTA_IRQHandler
+                0x000000000000811b        0x1 build-STM8S208/stm8s_it.o
+                0x000000000000811b                _EXTI_PORTA_IRQHandler
+ .text._EXTI_PORTB_IRQHandler
+                0x000000000000811c        0x1 build-STM8S208/stm8s_it.o
+                0x000000000000811c                _EXTI_PORTB_IRQHandler
+ .text._EXTI_PORTC_IRQHandler
+                0x000000000000811d        0x1 build-STM8S208/stm8s_it.o
+                0x000000000000811d                _EXTI_PORTC_IRQHandler
+ .text._EXTI_PORTD_IRQHandler
+                0x000000000000811e        0x1 build-STM8S208/stm8s_it.o
+                0x000000000000811e                _EXTI_PORTD_IRQHandler
+ .text._EXTI_PORTE_IRQHandler
+                0x000000000000811f        0x1 build-STM8S208/stm8s_it.o
+                0x000000000000811f                _EXTI_PORTE_IRQHandler
+ .text._CAN_RX_IRQHandler
+                0x0000000000008120        0x1 build-STM8S208/stm8s_it.o
+                0x0000000000008120                _CAN_RX_IRQHandler
+ .text._CAN_TX_IRQHandler
+                0x0000000000008121        0x1 build-STM8S208/stm8s_it.o
+                0x0000000000008121                _CAN_TX_IRQHandler
+ .text._SPI_IRQHandler
+                0x0000000000008122        0x1 build-STM8S208/stm8s_it.o
+                0x0000000000008122                _SPI_IRQHandler
+ .text._TIM1_UPD_OVF_TRG_BRK_IRQHandler
+                0x0000000000008123        0x1 build-STM8S208/stm8s_it.o
+                0x0000000000008123                _TIM1_UPD_OVF_TRG_BRK_IRQHandler
+ .text._TIM1_CAP_COM_IRQHandler
+                0x0000000000008124        0x1 build-STM8S208/stm8s_it.o
+                0x0000000000008124                _TIM1_CAP_COM_IRQHandler
+ .text._TIM2_UPD_OVF_BRK_IRQHandler
+                0x0000000000008125        0x1 build-STM8S208/stm8s_it.o
+                0x0000000000008125                _TIM2_UPD_OVF_BRK_IRQHandler
+ .text._TIM2_CAP_COM_IRQHandler
+                0x0000000000008126        0x1 build-STM8S208/stm8s_it.o
+                0x0000000000008126                _TIM2_CAP_COM_IRQHandler
+ .text._TIM3_UPD_OVF_BRK_IRQHandler
+                0x0000000000008127        0x1 build-STM8S208/stm8s_it.o
+                0x0000000000008127                _TIM3_UPD_OVF_BRK_IRQHandler
+ .text._TIM3_CAP_COM_IRQHandler
+                0x0000000000008128        0x1 build-STM8S208/stm8s_it.o
+                0x0000000000008128                _TIM3_CAP_COM_IRQHandler
+ .text._UART1_TX_IRQHandler
+                0x0000000000008129        0x1 build-STM8S208/stm8s_it.o
+                0x0000000000008129                _UART1_TX_IRQHandler
+ .text._UART1_RX_IRQHandler
+                0x000000000000812a        0x1 build-STM8S208/stm8s_it.o
+                0x000000000000812a                _UART1_RX_IRQHandler
+ .text._I2C_IRQHandler
+                0x000000000000812b        0x1 build-STM8S208/stm8s_it.o
+                0x000000000000812b                _I2C_IRQHandler
+ .text._UART3_TX_IRQHandler
+                0x000000000000812c        0x1 build-STM8S208/stm8s_it.o
+                0x000000000000812c                _UART3_TX_IRQHandler
+ .text._UART3_RX_IRQHandler
+                0x000000000000812d        0x1 build-STM8S208/stm8s_it.o
+                0x000000000000812d                _UART3_RX_IRQHandler
+ .text._ADC2_IRQHandler
+                0x000000000000812e        0x1 build-STM8S208/stm8s_it.o
+                0x000000000000812e                _ADC2_IRQHandler
+ .text._TIM4_UPD_OVF_IRQHandler
+                0x000000000000812f       0x1a build-STM8S208/stm8s_it.o
+                0x000000000000812f                _TIM4_UPD_OVF_IRQHandler
+ .text._EEPROM_EEC_IRQHandler
+                0x0000000000008149        0x1 build-STM8S208/stm8s_it.o
+                0x0000000000008149                _EEPROM_EEC_IRQHandler
+ .text._CLK_HSIPrescalerConfig
+                0x000000000000814a       0x11 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+                0x000000000000814a                _CLK_HSIPrescalerConfig
+ .text._GPIO_Init
+                0x000000000000815b       0x87 ../SPL/spl-STM8S208.o.lib(stm8s_gpio.o)
+                0x000000000000815b                _GPIO_Init
+ .text._ITC_SetSoftwarePriority
+                0x00000000000081e2       0xf1 ../SPL/spl-STM8S208.o.lib(stm8s_itc.o)
+                0x00000000000081e2                _ITC_SetSoftwarePriority
+ .text._TIM2_TimeBaseInit
+                0x00000000000082d3       0x19 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+                0x00000000000082d3                _TIM2_TimeBaseInit
+ .text._TIM2_Cmd
+                0x00000000000082ec       0x18 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+                0x00000000000082ec                _TIM2_Cmd
+ .text._TIM2_ITConfig
+                0x0000000000008304       0x21 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+                0x0000000000008304                _TIM2_ITConfig
+ .text._TIM4_TimeBaseInit
+                0x0000000000008325        0xd ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+                0x0000000000008325                _TIM4_TimeBaseInit
+ .text._TIM4_Cmd
+                0x0000000000008332       0x18 ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+                0x0000000000008332                _TIM4_Cmd
+ .text._TIM4_ITConfig
+                0x000000000000834a       0x21 ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+                0x000000000000834a                _TIM4_ITConfig
+ .text._TIM4_ClearFlag
+                0x000000000000836b        0x7 ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+                0x000000000000836b                _TIM4_ClearFlag
+                0x0000000000008372                . = ALIGN (0x2)
+ *(.fini9)
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ *(.fini0)
+                0x0000000000008372                _etext = .
+
+.data           0x0000000000000002        0x4 load address 0x0000000000008372
+                0x0000000000000002                PROVIDE (__data_start = .)
+ *(.data)
+ .data          0x0000000000000002        0x4 build-STM8S208/milis.o
+                0x0000000000000002                _miliseconds
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x0000000000000006                . = ALIGN (0x2)
+                0x0000000000000006                _edata = .
+                [!provide]                        PROVIDE (__data_end = .)
+
+.bss            0x0000000000000006        0x0
+                0x0000000000000006                PROVIDE (__bss_start = .)
+ *(.bss)
+ *(.bss*)
+ *(COMMON)
+                0x0000000000000006                PROVIDE (__bss_end = .)
+                0x0000000000008372                __data_load_start = LOADADDR (.data)
+                0x0000000000008376                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0000000000000006        0x0
+                [!provide]                        PROVIDE (__noinit_start = .)
+ *(.noinit*)
+                [!provide]                        PROVIDE (__noinit_end = .)
+                0x0000000000000006                _end = .
+                [!provide]                        PROVIDE (__heap_start = .)
+                [!provide]                        PROVIDE (___stack_end = ABSOLUTE (ORIGIN (STACK)))
+
+.eeprom         0x0000000000004000        0x0
+ *(.eeprom*)
+                0x0000000000004000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+CABS(ABS)       0x0000000000000000        0x0
+ CABS(ABS)      0x0000000000000000        0x0 build-STM8S208/main.o
+ CABS(ABS)      0x0000000000000000        0x0 build-STM8S208/milis.o
+ CABS(ABS)      0x0000000000000000        0x0 build-STM8S208/stm8s_it.o
+ CABS(ABS)      0x0000000000000000        0x0 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ CABS(ABS)      0x0000000000000000        0x0 ../SPL/spl-STM8S208.o.lib(stm8s_gpio.o)
+ CABS(ABS)      0x0000000000000000        0x0 ../SPL/spl-STM8S208.o.lib(stm8s_itc.o)
+ CABS(ABS)      0x0000000000000000        0x0 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ CABS(ABS)      0x0000000000000000        0x0 ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+                0x0000000000000000      0xc1f
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x0000000000000000       0x24 build-STM8S208/main.o
+ .debug_pubnames
+                0x0000000000000024       0x3b build-STM8S208/milis.o
+ .debug_pubnames
+                0x000000000000005f      0x2a5 build-STM8S208/stm8s_it.o
+ .debug_pubnames
+                0x0000000000000304      0x241 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .debug_pubnames
+                0x0000000000000545       0xdd ../SPL/spl-STM8S208.o.lib(stm8s_gpio.o)
+ .debug_pubnames
+                0x0000000000000622       0x83 ../SPL/spl-STM8S208.o.lib(stm8s_itc.o)
+ .debug_pubnames
+                0x00000000000006a5      0x3d4 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .debug_pubnames
+                0x0000000000000a79      0x1a6 ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+
+.debug_info     0x0000000000000000     0x28a1
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x8f build-STM8S208/main.o
+ .debug_info    0x000000000000008f       0xac build-STM8S208/milis.o
+ .debug_info    0x000000000000013b      0x40f build-STM8S208/stm8s_it.o
+ .debug_info    0x000000000000054a      0x8ee ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .debug_info    0x0000000000000e38      0x3af ../SPL/spl-STM8S208.o.lib(stm8s_gpio.o)
+ .debug_info    0x00000000000011e7      0x18c ../SPL/spl-STM8S208.o.lib(stm8s_itc.o)
+ .debug_info    0x0000000000001373     0x100b ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .debug_info    0x000000000000237e      0x523 ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+
+.debug_abbrev   0x0000000000000000      0x3ce
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x46 build-STM8S208/main.o
+ .debug_abbrev  0x0000000000000046       0x5a build-STM8S208/milis.o
+ .debug_abbrev  0x00000000000000a0       0x40 build-STM8S208/stm8s_it.o
+ .debug_abbrev  0x00000000000000e0       0xbd ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .debug_abbrev  0x000000000000019d       0x91 ../SPL/spl-STM8S208.o.lib(stm8s_gpio.o)
+ .debug_abbrev  0x000000000000022e       0x7a ../SPL/spl-STM8S208.o.lib(stm8s_itc.o)
+ .debug_abbrev  0x00000000000002a8       0x9b ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .debug_abbrev  0x0000000000000343       0x8b ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+
+.debug_line     0x0000000000000000     0x2088
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x15a build-STM8S208/main.o
+ .debug_line    0x000000000000015a      0x15b build-STM8S208/milis.o
+ .debug_line    0x00000000000002b5      0x35e build-STM8S208/stm8s_it.o
+ .debug_line    0x0000000000000613      0x6a3 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .debug_line    0x0000000000000cb6      0x2a2 ../SPL/spl-STM8S208.o.lib(stm8s_gpio.o)
+ .debug_line    0x0000000000000f58      0x306 ../SPL/spl-STM8S208.o.lib(stm8s_itc.o)
+ .debug_line    0x000000000000125e      0xa5e ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .debug_line    0x0000000000001cbc      0x3cc ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+
+.debug_frame    0x0000000000000000     0x1af0
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0xe5 build-STM8S208/main.o
+ .debug_frame   0x00000000000000e5       0xf3 build-STM8S208/milis.o
+ .debug_frame   0x00000000000001d8      0x438 build-STM8S208/stm8s_it.o
+ .debug_frame   0x0000000000000610      0x4ce ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .debug_frame   0x0000000000000ade      0x20a ../SPL/spl-STM8S208.o.lib(stm8s_gpio.o)
+ .debug_frame   0x0000000000000ce8      0x105 ../SPL/spl-STM8S208.o.lib(stm8s_itc.o)
+ .debug_frame   0x0000000000000ded      0x9f7 ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .debug_frame   0x00000000000017e4      0x30c ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc      0x0000000000000000     0x1440
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x124 build-STM8S208/main.o
+ .debug_loc     0x0000000000000124      0x13c build-STM8S208/milis.o
+ .debug_loc     0x0000000000000260      0x220 build-STM8S208/stm8s_it.o
+ .debug_loc     0x0000000000000480      0x3b8 ../SPL/spl-STM8S208.o.lib(stm8s_clk.o)
+ .debug_loc     0x0000000000000838      0x188 ../SPL/spl-STM8S208.o.lib(stm8s_gpio.o)
+ .debug_loc     0x00000000000009c0       0xc4 ../SPL/spl-STM8S208.o.lib(stm8s_itc.o)
+ .debug_loc     0x0000000000000a84      0x80c ../SPL/spl-STM8S208.o.lib(stm8s_tim2.o)
+ .debug_loc     0x0000000000001290      0x1b0 ../SPL/spl-STM8S208.o.lib(stm8s_tim4.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+OUTPUT(build-STM8S208/out.elf elf32-stm8)
